@@ -109,6 +109,7 @@ peerapp = function() {
         peer.on('call', function(call) {
             console.log("Receiving a call")
             console.log(call)
+            
             // New call requests from users
             // Ask Confirm before accepting call
             // if(window.incomingCall) {
